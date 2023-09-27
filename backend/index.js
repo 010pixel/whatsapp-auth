@@ -6,6 +6,10 @@ app.get("/", (request, response) => {
     response.send("Hi there");
 });
 
+app.get("/loginqrcode", (request, response) => {
+    response.send("Hi there");
+});
+
 app.get("/otp/:phoneNumber", (request, response) => {
     response.send("Hi there");
 });
